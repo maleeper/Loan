@@ -3,8 +3,8 @@ from typing import Tuple
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-TARGET_COL = "loan_default"
-SUBMISSION_TARGET_COL = "loan_default"
+TARGET_COL = "loan_paid_back"
+SUBMISSION_TARGET_COL = "loan_paid_back"
 
 DATA_DIR = pathlib.Path(__file__).resolve().parents[1] / "data"
 
